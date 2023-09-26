@@ -1,0 +1,53 @@
+body {
+  max-width: 960px;
+  margin: auto;
+}
+
+nav {
+  background-color: rgb(243, 241, 241);
+}
+
+nav ul {
+  padding-right: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav li {
+  font-weight: 900;
+  padding: 1em;
+  list-style-type: none;
+}
+nav ul li:first-child {
+  flex-grow: 1;
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: rgb(243, 241, 241);
+  padding-right: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+.maincontainer main {
+  flex-grow: 4;
+}
+.maincontainer aside {
+  background-color: rgb(243, 241, 241);
+  padding-left: 1em;
+  flex-grow: 1;
+  margin-left: 1rem;
+}
+
+section {
+  padding: 1rem;
+}
