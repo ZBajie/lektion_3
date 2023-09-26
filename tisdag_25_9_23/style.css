@@ -1,3 +1,10 @@
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
 body {
   max-width: 960px;
   margin: auto;
@@ -12,18 +19,22 @@ nav ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+  list-style: none;
 }
 
 nav li {
   font-weight: 900;
   padding: 1em;
-  list-style-type: none;
 }
+
 nav ul li:first-child {
   flex-grow: 1;
   font-size: 1.2em;
 }
 
+nav ul li a {
+  text-decoration: none;
+}
 footer {
   background-color: rgb(243, 241, 241);
   padding-right: 2em;
